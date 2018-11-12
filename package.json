@@ -1,0 +1,37 @@
+{
+  "name": "fastify-nats-proxy",
+  "version": "0.1.0",
+  "description": "Turn fastify request into NATS messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigmeech/fastify-nats-proxy.git"
+  },
+  "keywords": [
+    "messaging",
+    "nats.io",
+    "nats",
+    "fastify",
+    "http",
+    "rest",
+    "pubsub",
+    "publisher"
+  ],
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigmeech/fastify-nats-proxy/issues"
+  },
+  "homepage": "https://github.com/bigmeech/fastify-nats-proxy#readme",
+  "dependencies": {
+    "fastify": "^1.13.0",
+    "nats": "^1.0.1",
+    "pino": "^5.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
